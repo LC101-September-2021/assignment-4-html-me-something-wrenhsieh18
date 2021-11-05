@@ -1,1 +1,66 @@
 /* Write your CSS here! */
+html {
+    background-color: darkred;
+}
+
+body {
+    margin: 8px;
+    display: block;
+    background-color: white;
+}
+
+header {
+    background-color: #FFFACD;
+    padding: 5px 20px 5px;
+    position: sticky;
+    top: 0;
+}
+
+#mainHeading {
+    color: red;
+    text-align: center;
+    font-family: cambria;
+}
+
+#profilePhoto {
+    display: inline;
+    position: absolute;
+    left: 20px;
+}
+
+div#introduction {
+    display: block;
+    margin-left: 145px;
+
+}
+
+.workExperience {
+    margin: 15px 30px 10px;
+}
+
+article.workExperience > h2 {
+    margin: 0px;
+}
+
+article.workExperience > h3 {
+    margin: 0px;
+}
+
+article.workExperience > p {
+    /* line-height: 15px; */
+    margin: 0px;
+}
+
+article.workExperience > ol {
+    /* line-height: 15px; */
+    margin: 0px;
+}
+
+.funParagraph {
+    color: green;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+}

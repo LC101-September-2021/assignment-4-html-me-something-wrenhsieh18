@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" href="styles.css">
    </head>
    <body>
       <!-- Write your HTML in this file! -->
       <header>
-         <img src="./image/cv_photo.pdf" alt="Wren's profile photo" style="width:160px; height:160px;">
-         <h1>Jenhsiang "Wren" Hsieh <a href="https://www.linkedin.com/in/jenhsiang-wren-hsieh/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" alt="LinkedIn" style="width:25px; height:25px;"></a></h1>
-         <h2>Saint Louis, Missouri, United States - 63110</h2>
-         <p>I care about addressing challenges through creative thinking and the implementation of rational solutions to improve the present and future of our global society. Logical problem-solving, systematic approaches, and detailed execution are at the core of my professional philosophy.</p>
-         <img src="./image/breakline.png" alt="---------------------------------------------------------------" style="width:1200px; height:35px">
+         <h1 id="mainHeading"style="margin: 0px">Re&#769sume&#769</h1>
+         <img id= "profilePhoto" src="./image/cv_photo.pdf" alt="Wren's profile photo" style="width:120px; height:120px;">
+         <div id="introduction">
+            <h2 style="margin:0px;">Jenhsiang "Wren" Hsieh <a href="https://www.linkedin.com/in/jenhsiang-wren-hsieh/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Linkedin.svg/1200px-Linkedin.svg.png" alt="LinkedIn" style="width:20px; height:20px;"></a></h2>
+            <h3 style="margin:5px 0px;">Saint Louis, Missouri, United States - 63110</h3>
+            <p>I care about addressing challenges through creative thinking and the implementation of rational solutions to improve the present and future of our global society. Logical problem-solving, systematic approaches, and detailed execution are at the core of my professional philosophy.</p>
+         </div>         
       </header>
       <main>
-         <article>
-            <h2>Ice Cream Chef</h2>
-            <h3>Sugarwitch LLC - Part-time</h3>
-            <h4>June 2021 - Present</h4>
-            <h5>Saint Louis, Missouri, United States</h5>
+         <article class="workExperience">
+            <h2>Ice Cream Chef, Sugarwitch LLC <small><em>- Saint Louis, Missouri, United States</em></small></h2>
+            <h3>June 2021 - Present</h3>
             <p>I have so much fun in making ice cream sandwitches. I like how I can make people happy by handing them our ice cream sandwitch.</p>
             <ol>
                <li>Created amazing ice cream sandwitch flavors.</li>
@@ -24,11 +25,9 @@
             </ol>
          </article>
 
-         <article>
-            <h2>Chinese-English Translator</h2>
-            <h3>Freelance - Part-time</h3>
-            <h4>Dec 2020 - Present</h4>
-            <h5>Saint Louis, Missouri, United States</h5>
+         <article class="workExperience">
+            <h2>Chinese-English Translator, Self-employed (Freelance) <small><em>- Saint Louis, Missouri, United States</em></small> </h2>
+            <h3>Dec 2020 - Present</h3>
             <p>I started working as a freelance translator after a few months since I relocated to the states. I have many long-term clients in different translation needs, including legal documents, app interface, interview translation and transcription.</p>
             <ol>
                <li>Translate both from English to Chinese and from Chinese to English with high-quality formatting and high fidelity of translation.</li>
@@ -36,11 +35,9 @@
             </ol>
          </article>
          
-         <article>
-            <h2>Associate Engineer</h2>
-            <h3>Telecom Technology Center - Full-time</h3>
-            <h4>Sep 2019 - Aug 2020</h4>
-            <h5>Kaohsiung City, Taiwan</h5>
+         <article class="workExperience">
+            <h2>Associate Engineer, Telecom Technology Center <small><em>- Kaohsiung City, Taiwan</em></small></h2>
+            <h3>Sep 2019 - Aug 2020</h3>
             <p>This was my first job after I graduated from grad school. It is a government-sponsored institution mainly working on innovative research for Taiwan's government.</p>
             <ol>
                <li>Wrote a 500-page research report for Taiwanese government in 5G cybersecurity protection; the report was publicly released as a reference guide for the telecom industry.</li>
@@ -52,19 +49,16 @@
             </ol>
          </article>
 
-         <article>
-            <h2>Rearch and Teaching Assistant</h2>
-            <h3>National Cheng Kung University - Student</h3>
-            <h4>Jul 2015 - Aug 2017</h4>
-            <h5>Tainan City, Taiwan</h5>
-            <p>I majored in quantum information processing when I was in the grad school.</p>
+         <article class="workExperience">
+            <h2>Research and Teaching Assistant, National Cheng Kung University <small><em>- Tainan City, Taiwan</em></small></h2>
+            <h3>Jul 2015 - Aug 2017</h3>
+            <p id="testP" class="funParagraph">I majored in quantum information processing when I was in the grad school.</p>
             <ol>
-               <li>Led a project team resulting in a paper published in Scientific Reports as the first author; the paper was selected in 2017 Top 100 in the Physics section by Scientific Reports.</li>
+               <li>Led a project team resulting in a paper published in <em>Scientific Reports</em> as the first author; the paper was selected in 2017 Top 100 in the Physics section by Scientific Reports.</li>
                <li>Designed two Matlab programs to simulate quantum experiments and increased overall performance by 60% for one of the programs.</li>
             </ol>
          </article>
       </main>
-
       <footer>&copy; 2021 Jenhsiang "Wren" Hsieh</footer>
    </body>
 </html>
